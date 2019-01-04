@@ -1,7 +1,7 @@
 {
-  "name": "react-share",
-  "version": "2.4.0",
-  "description": "Social media share buttons and share counts for React.",
+  "name": "react-share-kakao",
+  "version": "0.0.5",
+  "description": "Forked react-share with Kakao social network. Social media share buttons and share counts for React.",
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "sideEffects": false,
@@ -17,8 +17,7 @@
     "run-demos": "webpack-dev-server --hot --config webpack.demo.config.js --progress",
     "lint": "eslint --ext .jsx --ext .js ./src ./demos",
     "prepublish": "npm run build",
-    "start": "npm run run-demos",
-    "postinstall": "npm run build:commonjs && npm run build:es"
+    "start": "npm run run-demos"
   },
   "keywords": [
     "react",
@@ -33,13 +32,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nygardk/react-share"
+    "url": "git+https://github.com/nygardk/react-share.git"
   },
-  "author": {
-    "name": "Klaus Nygård",
-    "email": "klaus.nygard@gmail.com",
-    "url": "http://klausnygard.fi"
-  },
+  "author": "Klaus Nygård <klaus.nygard@gmail.com> (http://klausnygard.fi)",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -80,5 +75,12 @@
   },
   "peerDependencies": {
     "react": "^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0-0"
+  },
+  "bugs": {
+    "url": "https://github.com/nygardk/react-share/issues"
+  },
+  "homepage": "https://github.com/nygardk/react-share#readme",
+  "directories": {
+    "lib": "lib"
   }
 }

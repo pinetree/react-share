@@ -7,3 +7,4 @@ docs
 .git
 *.png
 *.config.js
+.idea

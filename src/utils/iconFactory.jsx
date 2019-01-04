@@ -45,6 +45,15 @@ export default function iconFactory(network, iconConfig) {
           <g>
             <path d={iconConfig.icon} fill={logoFillColor} />
           </g>
+          {
+            iconConfig.over
+              ? (
+                <g>
+                  <path d={iconConfig.over} fill={iconConfig.color} />
+                </g>
+              )
+              : ''
+          }
         </svg>
       </div>
     );

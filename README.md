@@ -1,4 +1,4 @@
-# react-share
+# react-share-kakao
 
 [![npm version](https://badge.fury.io/js/react-share.svg)](https://badge.fury.io/js/react-share)
 [![Download Count](http://img.shields.io/npm/dm/react-share.svg?style=flat-square)](https://npmjs.org/package/react-share)
@@ -31,6 +31,7 @@ Migrating from v1 to v2? Read [migration notes](./migrate-v1-to-v2.md).
   - Workplace
   - Line
   - Weibo
+  - Kakao
   - email
 * share counts for
   - Facebook

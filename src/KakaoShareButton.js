@@ -7,7 +7,6 @@ import createShareButton from './utils/createShareButton';
 
 function kakaoLink(url, { title, image }) {
   assert(url, 'kakao.url');
-  assert(image, 'kakao.image');
 
   return 'https://story.kakao.com/s/share?' + objectToGetParams({
     url,

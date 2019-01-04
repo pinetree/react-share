@@ -44,3 +44,4 @@ export { default as LivejournalIcon } from './LivejournalIcon';
 export { default as ViberIcon } from './ViberIcon';
 export { default as WorkplaceIcon } from './WorkplaceIcon';
 export { default as LineIcon } from './LineIcon';
+export { default as KakaoIcon } from './KakaoIcon';
